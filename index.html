@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COVID-19 Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>COVID-19 Dashboard</h1>
+    <div id="chartsContainer">
+      <div class="chartContainer">
+        <h2>Bar Chart</h2>
+        <div id="barContainer" class="chart"></div>
+      </div>
+      <div class="chartContainer">
+        <h2>Pie Chart</h2>
+        <div id="pieContainer" class="chart"></div>
+        <div id="infoContainer" class="info">
+          <ul>
+            <li>Positive Increase: <span id="positiveIncrease"></span></li>
+            <li>Negative Increase: <span id="negativeIncrease"></span></li>
+            <li>Deaths: <span id="death"></span></li>
+            <li>Hospitalized: <span id="hospitalized"></span></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
